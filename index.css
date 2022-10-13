@@ -127,3 +127,19 @@ body {
     transform: scale(1);
     left:0;
   }
+  nav ul {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  nav .sub_menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .sub_menu{
+    display: flex;
+    width: 65%;
+    margin: 0 auto !important;
+    justify-content: space-evenly;
+  }
